@@ -1,3 +1,5 @@
+var randomNum = Math.floor(Math.randon() * 6) + 1;
+
 var questions = 3;
 var questionsLeft = ' (' + questions + ' questions left)';
 var adjective = prompt('Please type an adjective' + questionsLeft);
